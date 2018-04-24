@@ -18,6 +18,7 @@ public class UserOrder implements IUserOrder{
 	 */
 	public UserOrder(int player, Order order) {
 		setOrder(order);
+		setPlayer(player);
 	}
 	
 
