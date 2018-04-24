@@ -1,6 +1,6 @@
 package jpu2016.dogfight.view;
 
-public interface IVewSystem {
+public interface IViewSystem {
 	public default void displayMessage(String message) {
 		
 	}
