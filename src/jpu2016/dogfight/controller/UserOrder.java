@@ -8,6 +8,7 @@ public class UserOrder implements IUserOrder{
 	
 	/** The player. */
 	private int player;
+	private Order order;
 	
 	/**
 	 * Instantiates a new user order.
@@ -16,25 +17,28 @@ public class UserOrder implements IUserOrder{
 	 * @param order the order
 	 */
 	public UserOrder(int player, Order order) {
-		
+		setOrder(order);
 	}
 	
-	/* (non-Javadoc)
-	 * @see jpu2016.dogfight.controller.IUserOrder#getOrder(jpu2016.dogfight.controller.Order)
-	 */
-	@Override
-	public void getOrder(Order order) {
 
-		
+
+	public Order getOrder() {
+		return order;
 	}
 
-	/* (non-Javadoc)
-	 * @see jpu2016.dogfight.controller.IUserOrder#getPlayer(int)
-	 */
-	@Override
-	public void getPlayer(int player) {
 
-		
+	private void setOrder(Order order) {
+		this.order = order;
+	}
+
+
+	public int getPlayer() {
+		return player;
+	}
+
+
+	private void setPlayer(int player) {
+		this.player = player;
 	}
 
 }
