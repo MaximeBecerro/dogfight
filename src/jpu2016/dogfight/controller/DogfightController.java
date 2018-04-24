@@ -9,7 +9,7 @@ import jpu2016.dogfight.model.IDogfightModel;
 public class DogfightController implements IOrderPerformer{
 	
 	/** The time sleep. */
-	private int TIME_SLEEP = 30;
+	private static int TIME_SLEEP = 30;
 	
 	/**
 	 * Instantiates a new dogfight controller.
