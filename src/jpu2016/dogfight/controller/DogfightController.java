@@ -1,5 +1,7 @@
 package jpu2016.dogfight.controller;
 
+import jpu2016.dogfight.model.IDogfightModel;
+
 // TODO: Auto-generated Javadoc
 /**
  * The Class DogfightController.
@@ -22,16 +24,12 @@ public class DogfightController implements IOrderPerformer{
 	 * Play.
 	 */
 	public void play() {}
-	
-	
-	
 	/* (non-Javadoc)
 	 * @see jpu2016.dogfight.controller.IOrderPerformer#orderPerform(jpu2016.dogfight.controller.UserOrder)
 	 */
 	@Override
-	public void orderPerform(UserOrder userorder) {
-
-		
-	}
-	
+	public void orderPerform(UserOrder userorder) {}
+	public void setViewSystem(IViewSystem viewSYSTEM) {}
+	private void launchMissile (int player) {}
+	private void gameLoop() {}
 }
