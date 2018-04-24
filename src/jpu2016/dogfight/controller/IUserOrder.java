@@ -3,7 +3,7 @@ package jpu2016.dogfight.controller;
 public interface IUserOrder {
 	//...
 
-	public void getPlayer(int player);
+	public int getPlayer();
 
-	public void getOrder(Order order);
+	public Order getOrder();
 }
