@@ -1,6 +1,7 @@
 package jpu2016.dogfight.model;
 
 import java.awt.Dimension;
+import java.util.ArrayList;
 
 public interface IDogfightModel {
 	
@@ -10,7 +11,7 @@ public interface IDogfightModel {
 	
 	public void addMobile(IMobile Mobile);
  
-	public void removeMobile(IMobil Mobile);
+	public void removeMobile(IMobile Mobile);
 	
 	public ArrayList<IMobile> getIMobile();
 	
